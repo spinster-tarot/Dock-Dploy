@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals.ts'
 
 const router = createRouter({
     routeTree,
+    basepath: import.meta.env.BASE_URL,
     context: {},
     defaultPreload: 'intent',
     scrollRestoration: true,
