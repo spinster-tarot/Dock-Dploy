@@ -15,6 +15,7 @@ export default defineConfig({
     viteReact(),
     tailwindcss(),
   ],
+  base: '/Dock-Dploy/', 
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
